@@ -7,7 +7,8 @@ import './index.css';
 //import ExampleJsx from './ExampleJsx';
 //import ExampleComponent from './ExampleComponent';
 //import ExampleEvent from './ExampleEvent';
-import ExampleRendering from './ExampleRendering';
+//import ExampleRendering from './ExampleRendering';
+import ExampleKey from './ExampleKey';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +19,8 @@ root.render(
      {/* <ExampleJsx /> */}
      {/* <ExampleComponent /> */}
      {/* { <ExampleEvent /> } */}
-     <ExampleRendering />
+     {/* <ExampleRendering /> */}
+     <ExampleKey />
   </React.StrictMode>
 );
 
