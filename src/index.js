@@ -8,7 +8,11 @@ import './index.css';
 //import ExampleComponent from './ExampleComponent';
 //import ExampleEvent from './ExampleEvent';
 //import ExampleRendering from './ExampleRendering';
-import ExampleKey from './ExampleKey';
+//import ExampleKey from './ExampleKey';
+//import ExampleForm from './ExampleForm';
+//import ExampleState from './ExampleState';
+import ExampleComposition from './ExampleComposition';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +24,10 @@ root.render(
      {/* <ExampleComponent /> */}
      {/* { <ExampleEvent /> } */}
      {/* <ExampleRendering /> */}
-     <ExampleKey />
+     {/* <ExampleKey /> */}
+     {/* <ExampleForm /> */}
+     {/* <ExampleState /> */}
+     <ExampleComposition />
   </React.StrictMode>
 );
 
